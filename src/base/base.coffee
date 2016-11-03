@@ -1,0 +1,16 @@
+# node base.js base0 39000 127.0.0.1:39000,127.0.0.1:39001
+# node base.js base1 39001 127.0.0.1:39000,127.0.0.1:39001
+
+TAG = process.env.TAG ? process.argv[2] ? 'base'
+PORT = parseInt(process.env.PORT ? process.argv[3] ? 39999)
+BASES = (process.env.BASES ? process.argv[4] ? '').split(',')
+
+require('seneca')
+    tag: TAG
+    debug: short_logs: true
+.use 'mesh',
+    isbase: true
+    port: PORT
+    bases: BASES
+    pin: 'role:mesh'
+.ready -> console.log @id

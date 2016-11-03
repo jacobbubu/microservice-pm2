@@ -1,0 +1,38 @@
+{
+  "scripts": {
+    "build": "gulp build",
+    "watch": "gulp watch"
+  },
+  "dependencies": {
+    "chairo": "^2.2.1",
+    "gulp-watch": "^4.3.10",
+    "hapi": "^15.2.0",
+    "memdown": "^1.2.2",
+    "seneca": "^3.2.2",
+    "seneca-as-promised": "^2.0.0",
+    "seneca-balance-client": "^0.6.0",
+    "seneca-basic": "^0.5.0",
+    "seneca-demo-logger": "^0.1.0",
+    "seneca-entity": "^1.3.0",
+    "seneca-mesh": "^0.9.0",
+    "seneca-promisified": "^0.6.7",
+    "seneca-repl": "^0.3.0",
+    "wo": "^0.8.0"
+  },
+  "devDependencies": {
+    "async": "^2.1.2",
+    "babel-core": "^6.18.0",
+    "babel-preset-node5": "^11.1.0",
+    "coffee-script": "https://github.com/GabrielRatener/coffeescript.git",
+    "gulp": "^3.9.1",
+    "gulp-bg": "^0.0.8",
+    "gulp-coffee": "https://github.com/jacobbubu/gulp-coffee.git",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sourcemaps": "^2.2.0",
+    "gulp-util": "^3.0.7",
+    "pm2": "^2.0.19",
+    "replace-ext": "^1.0.0",
+    "through2": "^2.0.1",
+    "vinyl-sourcemaps-apply": "^0.2.1"
+  }
+}
