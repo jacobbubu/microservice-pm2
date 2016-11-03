@@ -22,6 +22,4 @@ lib
 
 node_modules*
 
-*.sublime-project
-
 yarn.lock
